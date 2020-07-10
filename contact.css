@@ -1,0 +1,90 @@
+
+#title li{
+  line-height:200%;
+  font-family:"Apple SD 산돌고딕 Neo";
+  font-size: 15px;
+}
+
+h1{
+  font-size:80px;
+
+
+  margin-left: 170px;
+}
+
+
+.form {
+  text-align: center;
+  outline: 0;
+
+}
+#name {
+  font-family:"Apple SD 산돌고딕 Neo";
+  font-weight:bold;
+  margin-right: 900px;
+}
+
+h2{
+  font-size:40px;
+  text-align:center;
+  font-family:"Apple SD 산돌고딕 Neo";
+  font-weight:bold;
+  letter-spacing: 20px;
+}
+
+.button {
+
+  width:100px;
+
+    background-color: tomato;
+
+    border: none;
+
+    color:#fff;
+
+    padding: 20px 10px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    margin: 4px;
+
+    cursor: pointer;
+
+}
+.button:hover {
+    background-color: grey;
+}
+
+
+.img{
+       position: relative;
+       background-image: url("img/back.png");
+       height: 100vh;
+       background-size: cover;
+   }
+
+   .img-cover{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index:1;
+   }
+
+   .img .content{
+     font-family: "Avenir Next", "Avenir", sans-serif;
+
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-30%, -40%);
+        font-size:5rem;
+        color: white;
+        z-index: 2;
+        text-align: left;
+         letter-spacing: 5px;
+   }
