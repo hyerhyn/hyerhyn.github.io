@@ -1,0 +1,36 @@
+
+img{
+float:left;
+}
+
+
+#title li{
+  line-height:200%;
+  font-family:"Apple SD 산돌고딕 Neo";
+  font-size: 15px;
+
+}
+
+h1{
+  font-size:80px;
+
+
+  margin-left: 170px;
+}
+
+#logo {
+  font-size:20px;
+  float: left;
+  font-family:"Apple SD 산돌고딕 Neo";
+  font-weight:bold;
+    margin-top:40px;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start:40px;
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
