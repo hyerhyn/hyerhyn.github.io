@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    font-family: "맑은 고딕", "돋움";
+    font-size : 100%;
+}
+/* 너비가 768픽셀을 초과하는 데스크톱 컴퓨터 등 */
+.c1 {width: 8.33%; float:left; padding: 15px;}
+.c2 {width: 16.66%; float:left; padding: 15px;}
+.c3 {width: 25%; float:left; padding: 15px;}
+.c4 {width: 33.33%; float:left; padding: 15px;}
+.c5 {width: 41.66%; float:left; padding: 15px;}
+.c6 {width: 50%; float:left; padding: 15px;}
+.c7 {width: 58.33%; float:left; padding: 15px;}
+.c8 {width: 66.66%; float:left; padding: 15px;}
+.c9 {width: 75%; float:left; padding: 15px;}
+.c10 {width: 83.33%; float:left; padding: 15px;}
+.c11 {width: 91.66%; float:left; padding: 15px;}
+.c12 {width: 100%; float:left; padding: 15px;}
+/* 너비가 768픽셀 이하인 스마트폰 */
+@media only screen and (max-width: 768px) {
+    [class*="c"] {
+        width: 100%;
+    }
+}
+aside {
+    color: #ffffff;
+}
+
+aside li {
+    padding:10px;
+    margin: 5px;
+    background-color: #b52d89;
+}
+section#main {
+    padding: 15px;
+}
+section#main p {
+    padding:10px;
+    font-size: 0.95em;
+    line-height: 130%;
+}
+
+section#photos {
+    padding: 15px;
+}
+section#photos p {
+    padding:10px;
+    font-size: 0.95em;
+    line-height: 130%;
+}
+
+section#typo {
+
+}
+section#typo p {
+    padding:10px;
+    font-size: 0.95em;
+    line-height: 130%;
+}
+section#black {
+background-color: black;
+}
+footer {
+    height: 60px;
+    padding:10px;
+    text-align: center;
+    background-color: #eeeeee;
+}
+#title_left li {
+
+display: list-item;
+  line-height: 130%;
+
+font-size:17px;
+
+font-family:"Apple SD 산돌고딕 Neo";
+
+left:85%
+
+}
